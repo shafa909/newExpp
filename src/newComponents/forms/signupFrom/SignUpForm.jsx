@@ -11,23 +11,11 @@ import './signupfrom.css'
 
 import {
   TextField,
-  Box,
   Button,
-  Stack,
   Tooltip,
-  createTheme,
 } from "@mui/material";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
 
-const styles = (theme) => ({
-  customWidth: {
-    maxWidth: 150,
-  },
-  customPosition: {
-    position: "top",
-  },
-});
+
 
 const title =
   "Must contain 8 characters, at least 1 uppercase, 1 lowercase, a number and 1 special character";
@@ -182,6 +170,5 @@ const SignUpForm = ({ classes }) => {
     </form>
   );
 };
-
 
 export default SignUpForm;

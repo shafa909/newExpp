@@ -1,13 +1,7 @@
-/* .auth-btn-google {
-  width: 21vw;
-  min-width: 257px !important;
-  background-color: #4285f4 !important;
-  color: #fffdfd;
-} */
-
-
 .auth-btn-google {
+  background-color: #4285f4!important;
   box-shadow: none!important;
+  color: #fffdfd;
   width: 21vw;
   min-width: 257px!important;
   max-width: 420px;
@@ -15,18 +9,8 @@
 }
 
 .auth-btn-google:hover {
-  background-color: #176ABD !important;
+  background-color: #1a76d2 !important;
 }
-
-
-/* 
-.auth-btn-linkedin {
-  width: 21vw;
-  min-width: 257px !important;
-  margin-top: 1em !important;
-  background-color: #2867b2 !important;
-} */
-
 
 .auth-btn-linkedin {
   background-color: #2867b2!important;
@@ -42,16 +26,6 @@
 .auth-btn-linkedin:hover {
   background-color: #245ca0 !important;
 } 
-
-/* .auth-btn-microsoft {
-  width: 21vw;
-  min-width: 257px !important;
-  margin-top: 1em !important;
-  background-color: #f25022 !important
-} */
-
-
-
 
 .auth-btn-microsoft {
   background-color: #f25022!important;

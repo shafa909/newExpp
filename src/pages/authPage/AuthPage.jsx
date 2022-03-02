@@ -16,12 +16,9 @@ const AuthPage = () => {
 
   return (
     <div id="background-container" style={{ backgroundImage: `url(${background})` }}>
-
-
       <CSSTransition in={view} timeout={250} classNames="transitionDiv">
         {view ? <Login toggleView={veiwHandle} /> : <SignUp toggleView={veiwHandle} />}
       </CSSTransition>
-
     </div>
   );
 };

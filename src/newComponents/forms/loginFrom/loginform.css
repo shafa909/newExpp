@@ -12,16 +12,6 @@
   height: 75px !important;
 }
 
-/* #signin {
-  width: 21vw;
-  min-width: 257px;
-  height: 36px;
-  margin-top: 1.1em !important;
-} */
-
-
-
-
 #signin {
   height: 36px;
   margin-top: 1.1em!important;
@@ -30,7 +20,6 @@
   max-width: 420px;
   margin-bottom: -1vh !important;
 }
-
 
 .under-login-form-text {
   display: inline-block; 
@@ -48,4 +37,13 @@
   font-size: .9em;
   margin-top: .1em;
   text-decoration: none;
+  color: #4285f4;
+}
+
+.forgot {
+  color: #346ac3 !important;
+}
+
+.forgot:hover {
+  color: #4285f4 !important;
 }

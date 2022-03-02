@@ -2,7 +2,6 @@ import { useForm } from "react-hook-form";
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Link from '@mui/material/Link';
 
 import { Button, TextField, Box, Checkbox, createTheme } from "@mui/material";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -11,9 +10,6 @@ import * as yup from "yup";
 import axios from "axios";
 
 import './loginform.css'
-
-
-
 
 
 const LoginForm = ({ href, props }) => {
@@ -60,7 +56,6 @@ const LoginForm = ({ href, props }) => {
     reset();
     handleForm();
   };
-
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>

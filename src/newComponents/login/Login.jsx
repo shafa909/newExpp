@@ -5,9 +5,6 @@ import LoginForm from "../forms/loginFrom/LoginForm";
 import AuthButtons from "../authButton/loginAuthButton/AuthButtons"
 import Link from '@mui/material/Link';
 
-
-
-
 const Login = ({ toggleView }) => {
   return (
     <div className="login-main-container ">

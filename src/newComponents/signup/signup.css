@@ -32,22 +32,6 @@
   border-top-left-radius: 5px;
 } 
 
-/* .sign-up-right-container{
-  background-color: white;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;  
-  width: 30vw;
-  height: 90vh;
-  min-height: 695px;
-  min-width: 360px;
-  position: relative;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
-} */
-
-
 .sign-up-right-container {
   background-color: #fff;
   border-bottom-right-radius: 5px;
@@ -58,7 +42,6 @@
   justify-content: space-evenly;
   padding: 8vh 0 6vh 0;
 }
-
 
 .sign-up-dot-logo {
   height: 285px;
@@ -75,20 +58,6 @@
   margin-top: auto;
 }
 
-/* .sign-up-info-desc {
-  color: rgba(255, 255, 255, 0.74);
-  text-Align: center;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.25px;
-  width: 277px;
-  height: 100px;
-  margin-top: 5%;
-  margin-bottom: auto;
-} */
-
-
 .sign-up-info-desc {
   text-Align: center;
   color: hsla(0,0%,100%,.74);
@@ -102,23 +71,10 @@
   max-width: 80%;
 }
 
-
-
-    
 .sign-up-word-logo {
   margin-top: -6vh;
   margin-bottom: 2vh;
 }
-/* 
-.sign-up-title {
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.15000000596046448px;
-  text-align: center;
-  margin-bottom: .4vh;
-} */
-
 
 .sign-up-title {
   font-size: 19px;
@@ -127,7 +83,6 @@
   text-align: center;
   margin-top: -3vh;
 }
-
 
 .sign-up-or-title {
   font-size: 14px;
@@ -138,11 +93,6 @@ p.sign-up-or-title {
   margin: 1vh;
 }
 
-
-
-
-
-    
 .sign-up-bottom-container {
   background-color: #3a3a3a;
   width: 100%;
@@ -154,6 +104,14 @@ p.sign-up-or-title {
   min-height: 30px;
   position: absolute; 
   bottom: 0; 
+}
+
+.sign-in-tag {
+  color: #346ac3 !important;
+}
+
+.sign-in-tag:hover {
+  color: #4285f4 !important;
 }
     
 @media screen and (max-width: 900px) {

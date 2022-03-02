@@ -6,7 +6,6 @@ import SignUpForm from '../forms/signupFrom/SignUpForm';
 import AuthButton from '../authButton/signUpAuthButton/SignUpAuthButton'
 
 
-
 const SignUp = ({ toggleView }) => {
   return (
     <div className="sign-up-main-container">
@@ -24,7 +23,7 @@ const SignUp = ({ toggleView }) => {
         <div className="sign-up-bottom-container">
           <p>
             <span style={{ color: '#d3d3d3', fontSize: '14px' }}>{"Already have an account?  "}</span>
-            <Link href="#" underline="none" onClick={toggleView} className='create-account-tag' style={{ fontSize: '14px' }}>
+            <Link href="#" underline="none" onClick={toggleView} className='sign-in-tag' style={{ fontSize: '14px' }}>
               {'  SIGN IN HERE'}
             </Link>
           </p>
