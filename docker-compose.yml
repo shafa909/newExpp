@@ -1,0 +1,17 @@
+version: "3.3"
+
+services:
+
+  platform:
+    image: 559684791460.dkr.ecr.us-east-1.amazonaws.com/exceptionly/platform:master
+    container_name: "platform-service"
+    networks: 
+      - cloud-public
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.platform.rule=Host(`dev.exceptionly.com`)"
+      - "traefik.http.routers.platform.entrypoints=websecure"
+      - "traefik.http.routers.platform.tls.certresolver=myresolver"
+networks:
+  cloud-public:
+    external: true

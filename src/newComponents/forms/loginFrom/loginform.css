@@ -1,0 +1,51 @@
+.login-form-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.login-text-fields {
+  width: 21vw;
+  min-width: 257px;
+  height: 75px !important;
+}
+
+/* #signin {
+  width: 21vw;
+  min-width: 257px;
+  height: 36px;
+  margin-top: 1.1em !important;
+} */
+
+
+
+
+#signin {
+  height: 36px;
+  margin-top: 1.1em!important;
+  width: 21vw;
+  min-width: 257px;
+  max-width: 420px;
+  margin-bottom: -1vh !important;
+}
+
+
+.under-login-form-text {
+  display: inline-block; 
+  width: 100%;
+  margin-top: 1.1em;
+}
+
+.remember {
+  float: left;
+  font-size: .9em;
+}
+
+.forgot {
+  float: right;
+  font-size: .9em;
+  margin-top: .1em;
+  text-decoration: none;
+}

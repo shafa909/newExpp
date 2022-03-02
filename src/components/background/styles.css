@@ -1,0 +1,10 @@
+#background-container {
+  width: 100vw;
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

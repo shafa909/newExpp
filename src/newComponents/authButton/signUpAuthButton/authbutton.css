@@ -1,0 +1,36 @@
+
+
+.auth-short-btn {
+  margin-bottom: 1vh !important 
+}
+
+.auth-btn-ggle {
+  max-width: 33px;
+  max-height: 33px;
+  min-width: 33px;
+  min-height: 33px;
+}
+
+.auth-btn-lkdn {
+  background-color: #2867b2 !important;
+  max-width: 33px;
+  max-height: 33px;
+  min-width: 33px;
+  min-height: 33px;
+}
+
+.auth-btn-msft {
+  background-color: #f25022 !important;
+  max-width: 33px;
+  max-height: 33px;
+  min-width: 33px;
+  min-height: 33px;
+}
+
+.auth-btn-lkdn:hover {
+  background-color: #245ca0 !important;
+}
+
+.auth-btn-msft:hover {
+  background-color: #d9481e!important;
+}
