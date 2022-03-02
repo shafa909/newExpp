@@ -30,7 +30,7 @@ export default function Authbutton({ }) {
   }
 
   const { linkedInLogin } = useLinkedIn({
-    clientId: process.env.REACT_APP_LINKEDIN_CLIENT_ID,
+    clientId: "770xm2is7tfikz",
     redirectUri: `${window.location.origin}/linkedin`, // for Next.js, you can use `${ typeof window === 'object' && window.location.origin } / linkedin`
     onSuccess: (code) => {
       console.log(code);
@@ -74,7 +74,7 @@ export default function Authbutton({ }) {
     <>
       <Stack className="auth-short-btn" direction="row" spacing={2}>
         <GoogleLogin
-          clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
+          clientId="649185667265-q0mee88844ck3tsv209dk2n8v1bi0t31.apps.googleusercontent.com"
           render={renderProps => (
             <Button className="auth-btn-ggle" style={{ maxWidth: '30px', maxHeight: '30px', minWidth: '30px', minHeight: '30px' }} variant="contained" onClick={renderProps.onClick} disabled={renderProps.disabled}>
               <i className="fab fa-google" aria-hidden="true"></i>
@@ -90,7 +90,7 @@ export default function Authbutton({ }) {
           <i className="fab fa-linkedin" aria-hidden="true"></i>
         </Button>
         <MicrosoftLogin
-          clientId={process.env.REACT_APP_MICROSOFT_CLIENT_ID}
+          clientId="76a35a06-c1a8-4719-84e7-f47d59e4bff2"
           authCallback={microsoftAuthHandler}
           withUserData={true}
           redirectUri={`${window.location.origin}`}
